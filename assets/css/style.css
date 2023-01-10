@@ -400,3 +400,57 @@ a {
     line-height: 1.54;
     color: #ffffff;
 }
+/* Features*/
+
+.features .body {
+    display: flex;
+    justify-content: space-between;
+    padding: 65px 0;
+    margin-top: 135px;
+}
+.features .images {
+    display: flex;
+    gap: 30px;
+}
+
+.features .images img {
+    width: 270px;
+    height: 405px;
+    border-radius: 16px;
+    object-fit: cover;
+}
+.features .images .lower {
+    margin-top: 34px;
+}
+.features .content {
+    width: 41%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.features .content .desc {
+    margin-top: 16px;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #5f5b53;
+}
+.features .content .cta-btn {
+    margin-top: 31px;
+    min-width: 137px;
+    background: var(--primary);
+    border-radius: 26px;
+}
+.features-2nd {
+    margin-top: 70px;
+}
+.features-2nd .body {
+    flex-direction: row-reverse;
+}
+.features-2nd .content {
+    width: 49%;
+}
+.features-2nd .images img {
+    width: 470px;
+    height: 440px;
+}
